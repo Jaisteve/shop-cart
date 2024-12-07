@@ -3,7 +3,7 @@ import './App.css'
 import { Header } from './components/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Home } from './components/Home'
-import { Viewcart } from './components/ViewCart'
+import { Viewcart } from './components/Viewcart'
 import { useState,createContext } from 'react'
 
 export const Cartcontext = createContext();
